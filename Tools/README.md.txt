@@ -1,0 +1,2 @@
+E:\Keil_v5\ARM\ARMCC\bin\fromelf.exe --bin -o ..\output\app_FV1\app.bin ..\output\app_FV1\app.axf
+python ..\tools\mkimage.py --application 128 ..\output\app_FV1\app.bin ..\output\app_FV1\app_upgrade_pkg.bin
